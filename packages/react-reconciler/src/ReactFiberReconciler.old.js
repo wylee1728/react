@@ -297,7 +297,7 @@ export function createHydrationContainer(
     transitionCallbacks,
   );
 
-  // TODO: Move this to FiberRoot constructor
+  // TODO: Move this to FiberRoot constructor 
   root.context = getContextForSubtree(null);
 
   // Schedule the initial render. In a hydration root, this is different from
